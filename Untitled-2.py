@@ -36,7 +36,9 @@ while True:
         if work == "2":
             primer()
     elif menu == "3":
-        input("Информация о тебе:\nТвой игровой ник - " + str(nickname) + "\nТвой баланс - " + str(balance) + "\nЧтобы выйти в меню нажми клавишу Enter")
+                print("Информация о тебе:\nТвой игровой ник - " + str(nickname) + "\nТвой баланс - " + str(balance) + )
+                if plushka1 == 1:
+                    print(plushka1)
 
     elif menu == "4":
         plushki_privet = input("Привет, ты попал в магазин аксессуаров, тут ты можешь купить себе разные приколюхи.\n1 - Выйти в главное меню\n2 - Посмотреть товары: ")
@@ -84,7 +86,4 @@ while True:
                         pokupka_False = input("Недостаточно монет чтобы приобрести этот аксессуар.\nЧтобы выйти в главное меню нажми Enter")
 
                     
-            elif menu == "3":
-                print("Информация о тебе:\nТвой игровой ник - " + str(nickname) + "\nТвой баланс - " + str(balance) + )
-                if plushka1 == 1:
-                    print(plushka1)
+            
